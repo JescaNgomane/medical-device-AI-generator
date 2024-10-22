@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medical device AI generator</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <header><h1>Medical Devices AI Generator</h1></header>
     <div class="container">
       <main>
-        <form>
+        <form id="generate-result">
           <input
             type="text"
             placeholder="Message AI"
@@ -21,11 +22,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="results">
-          Results
-          <br />
-          Computerised Tomography
-        </div>
+        <div class="results" id="results"></div>
       </main>
 
       <footer>
