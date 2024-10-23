@@ -37,11 +37,12 @@ form {
 }
 .results {
   font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
   display: block;
   margin: 0 auto;
   border-left: 3px solid rgb(114, 124, 212);
   padding: 30px;
-  width: 48%;
+  width: 55%;
   background-color: #f0f0f0;
   line-height: 1.5;
 }
